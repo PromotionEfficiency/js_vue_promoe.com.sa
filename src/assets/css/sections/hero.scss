@@ -1,0 +1,76 @@
+section#hero {
+  height: 120vh;
+  position: relative;
+
+  header{
+    height: 88px;
+    z-index: 7;
+    position: relative;
+    transition: all 500ms;
+    
+    nav {
+      background-color: #464838;
+      transition: all 500ms;
+    }
+    &.sticky {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      nav {
+        border-radius: revert !important;
+        background-color: white;
+        .navbar-brand img {
+          content: url('../../imgs/logo/pe_logo_primary.svg')
+        }
+      }
+    }
+  }
+  .layer {
+    background-size: contain;
+    background-position: bottom center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+  }
+  .layer_1 {
+    z-index: 1;
+  }
+  .layer_2 {
+    z-index: 2;
+  }
+  .layer_3 {
+    z-index: 3;
+    width: 200%;
+    background-size: cover;
+    -webkit-animation: movingclouds 25s linear infinite;
+    -moz-animation: movingclouds 25s linear infinite;
+    -o-animation: movingclouds 25s linear infinite;
+  }
+  .layer_4 {
+    z-index: 4;
+  }
+  .layer_5 {
+    z-index: 5;
+  }
+}
+
+   @keyframes movingclouds {
+    0% {
+      margin-left: 0%;
+    }
+  
+    100% {
+      margin-left: -100%;
+    }
+  }
+  
+  .animate__animated.animate__shakeX {
+    --animate-duration: 15s;
+  }
+  
+  
+  

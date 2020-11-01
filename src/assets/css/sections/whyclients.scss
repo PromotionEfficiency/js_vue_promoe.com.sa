@@ -1,0 +1,46 @@
+
+#whyclients {}
+
+section#whyclients {
+  min-height: 300px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+
+section#whyclients .card {
+  padding: 24px;
+}
+
+section#whyclients .card-title {
+  font-size: 400%;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+
+
+section#whyclients h4 {
+  font-weight: bold;
+  margin: 0;
+  color: black;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+section#whyclients h5 {
+  font-weight: normal;
+  margin: 0;
+  color: black;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+
+section#whyclients header {
+  position: relative;
+}
+
+section#whyclients .container .col {
+  height: 400px;
+  background: white;
+}

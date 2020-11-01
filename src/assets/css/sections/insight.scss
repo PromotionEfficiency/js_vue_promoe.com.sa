@@ -1,0 +1,68 @@
+section#insight {
+  background-color: #292929;
+  background-position: 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top:150px;
+  border:none;
+
+  .card {
+    background-position: -200% 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+    
+    .card-body{
+      padding:0.5rem;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h4 {
+      font-weight: bold;
+      font-size: 52px;
+      margin: 0;
+      padding: 0;
+    }
+
+    &.clients h4 {
+      color: #27a6a1;
+    }
+
+    &.employees h4 {
+      color: #4a6cb3;
+    }
+
+    &.campaigns h4 {
+      color: #b84f89;
+    }
+
+    &.hours h4 {
+      color: #c99f6b;
+    }
+
+    small {
+      color: #6e757d;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  
+  .tt-shape-top {
+    top: -1px;
+  }
+  .tt-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    z-index: 1;
+    direction: ltr;
+  }
+
+}

@@ -1,0 +1,41 @@
+
+section#news {}
+
+section#news .card-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+section#news .card-title {
+  color: #242C35;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+section#news h3 {
+  font-size: 36px;
+  color: #242C35;
+  font-weight: bold;
+}
+
+section#news .badge-light {
+  border: 1px solid grey;
+  font-weight: 100;
+}
+
+section#news .badge-light.blue {
+  border-color: #4A90E2;
+  color: #4A90E2;
+}
+
+section#news .badge-light.green {
+  border-color: #13888A;
+  color: #13888A;
+}
+
+section#news .badge-light.pink {
+  border-color: #973D83;
+  color: #973D83;
+}

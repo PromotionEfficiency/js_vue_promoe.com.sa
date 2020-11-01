@@ -1,0 +1,30 @@
+
+section#blog {}
+
+section#blog .card {
+  background-color: #EEF1F3;
+}
+
+section#blog .card-title {
+  font-size: 24px;
+}
+
+section#blog .card-text {
+  font-size: 16px;
+}
+
+section#blog .card:hover {
+  background-color: white;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+  -moz-transform: translate(0, -12px);
+  -ms-transform: translate(0, -12px);
+  -o-transform: translate(0, -12px);
+  -webkit-transform: translate(0, -12px);
+  transform: translate(0, -12px);
+  transition: all 500ms;
+}
+
+section#blog .card:hover .card-title {
+  color: #4A90E2 !important;
+  transition: all 500ms;
+}

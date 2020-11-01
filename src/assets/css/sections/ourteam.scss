@@ -1,0 +1,68 @@
+
+section#ourteam {
+    background-color: #464838;
+  }
+  
+
+  
+#ourteam .col h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#ourteam .col p {
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  position: relative;
+}
+
+#ourteam .col p::after {
+  content: " ";
+  background-color: #B8D432;
+  display: block;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 7px;
+  width: 25%;
+}
+
+
+#ourteam .member-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vw;
+  width: 100%;
+}
+
+#ourteam .member-bg {
+  position: relative;
+}
+
+#ourteam .bio {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  color: White;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: black;
+
+}
+
+
+#ourteam .member-bg:hover .bio {
+  opacity: 0.75;
+}
+
+
+#ourteam .quote_mark {
+  font-size: 48px;
+  font-weight: bold;
+}

@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  section#hero{
+    height: 130vw;
+    .layer {
+      background-size: contain;
+      background-position: bottom 30%;
+      width: 150%;
+      position: absolute;
+      top: 0;
+      left: -8vh;
+      bottom: 0;
+      background-repeat: no-repeat;
+    }
+  }
+  section#whyus {
+    .row{
+      > div{
+        margin-bottom:5vh;
+      }
+      > div:nth-child(odd){
+        margin-bottom:5vh;
+      }
+      > div:nth-child(even){
+        margin-top:0;
+        margin-bottom:5vh;
+      }
+      
+    }
+    .line{
+      display:none;
+    }
+  }
+
+  section#ourteam .member-bg,
+  section#work .member-bg {
+    height: 100vw;
+    width: 100%;
+  }
+
+  section#getstarted {
+    background-size: auto;
+  }
+
+  section#instagram .text {
+    background-image: unset !important;
+  }
+
+  .svg--lg {
+    display: none;
+  }
+
+  section#ouraddress {
+    .vue-map-container {
+      height: 100vw;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .svg--sm {
+    display: none;
+  }
+}
+
+

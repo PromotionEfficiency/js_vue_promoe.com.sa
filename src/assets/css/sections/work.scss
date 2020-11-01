@@ -1,0 +1,43 @@
+section#work {
+    background-color: #DFE4E8;
+    padding-bottom:120px!important;
+
+    .member-bg {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 20vw;
+      width: 100%;
+      position: relative;
+
+      &:hover .bio {
+        opacity: 0.50;
+        border-bottom: 18px solid #B8D432;
+      }
+    }
+
+    .bio {
+      transition: .5s ease;
+      opacity: 0;
+      position: relative;
+      color: White;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      background: black;
+    }
+
+    .quote_mark {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    
+  svg#special {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+
+  }

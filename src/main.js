@@ -1,9 +1,23 @@
+import Vue from 'vue';
+import vueHeadful from 'vue-headful';
+import App from './App.vue';
+import './plugins/bootstrap-vue';
 import '@babel/polyfill';
 import 'mutationobserver-shim';
-import Vue from 'vue';
-import './plugins/bootstrap-vue';
-import App from './App.vue';
+import './assets/css/main.scss';
+import VueCarousel from 'vue-carousel';
 import router from './router';
+import * as VueGoogleMaps from "vue2-google-maps";
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: "AIzaSyAsu3jD6SZw8WiJq6xOYzIkRTwKTu1S7Y0",
+    libraries: "places" // necessary for places input
+  }
+});
+
+
+Vue.component('vue-headful', vueHeadful);
+Vue.use(VueCarousel);
 
 Vue.config.productionTip = false;
 

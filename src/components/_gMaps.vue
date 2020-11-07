@@ -13,7 +13,7 @@ export default {
   name: "GoogleMap",
   data() {
     return {
-      center: { lat: 26.305914, lng: 50.223589 },
+      center: { lat: this.jsonData.sections.address.content.location.lat , lng: this.jsonData.sections.address.content.location.lng  },
       markers: [],
       places: [],
       options:{

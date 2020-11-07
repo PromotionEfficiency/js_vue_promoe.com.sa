@@ -7,7 +7,7 @@
       lang="en"
       url="https://www.promoe.com.sa/"
       twitter:url="https://twitter.com/promoefficiency/"
-      image="https://www.promoe.com.sa/assets/imgs/favicon/OGImage.png"
+      image="https://www.promoe.com.sa/public/assets/imgs/favicon/OGImage.png"
     />
     <Hero />
     <AboutUs />

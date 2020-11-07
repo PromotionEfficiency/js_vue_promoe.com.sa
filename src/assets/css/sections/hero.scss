@@ -11,21 +11,49 @@ section#hero {
     nav {
       background-color: #464838;
       transition: all 500ms;
+
+      .overlay-content {
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+      
+        a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 36px;
+          color: #45b5aa;
+          display: block;
+          transition: 0.3s;
+          font-weight: 500;
+        }
+
+        a:hover,
+        a:focus {
+          color: #7ee1d6;
+        }
+      }
     }
+
     &.sticky {
       position: fixed;
       top: 0;
       right: 0;
       left: 0;
+      padding:0 !important;
       nav {
         border-radius: revert !important;
         background-color: white;
         .navbar-brand img {
-          content: url('../../imgs/logo/pe_logo_primary.svg')
+          content: url('/assets/imgs/logo/pe_logo_primary.svg')
         }
       }
     }
   }
+
   .layer {
     background-size: contain;
     background-position: bottom center;
@@ -36,12 +64,15 @@ section#hero {
     bottom: 0;
     background-repeat: no-repeat;
   }
+
   .layer_1 {
     z-index: 1;
   }
+
   .layer_2 {
     z-index: 2;
   }
+
   .layer_3 {
     z-index: 3;
     width: 200%;
@@ -50,9 +81,11 @@ section#hero {
     -moz-animation: movingclouds 25s linear infinite;
     -o-animation: movingclouds 25s linear infinite;
   }
+
   .layer_4 {
     z-index: 4;
   }
+
   .layer_5 {
     z-index: 5;
   }

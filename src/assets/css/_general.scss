@@ -1,0 +1,55 @@
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  small {
+    font-size: 0.6em;
+    line-height: 1.5;
+  }
+}
+
+h3 {
+  font-size: 2rem;
+  color: #b8d432;
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 77px;
+}
+
+section {
+  position: relative;
+  &:nth-child(odd) {
+    background-color: grey;
+  }
+  &:nth-child(even) {
+    background-color: silver;
+  }
+}
+
+.quarter_logo {
+  z-index: 2;
+  position: relative;
+}
+
+.infected {
+  overflow: hidden;
+}
+
+main {
+  height: 100vh;
+}

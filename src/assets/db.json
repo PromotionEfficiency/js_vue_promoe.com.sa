@@ -1,0 +1,301 @@
+{
+    "general": {
+        "site_name": "Promotion Efficiency Est.",
+        "slogan": "Your <strong>HIKE</strong> to <strong>PEAK!</strong>",
+        "description": "business, promo, promotion, efficiency, center, khobar",
+        "email": "contact@promoe.com.sa",
+        "url": "https://www.promoe.com.sa/",
+        "social_accounts":[
+            {
+                "title":"twitter",
+                "link":"https://twitter.com/promoefficiency/",
+                "fav_icon":"fab fa-twitter"
+            },
+            {
+                "title":"instagram",
+                "link":"https://www.instagram.com/promoefficiency",
+                "fav_icon":"fab fa-instagram"
+            },
+            {
+                "title":"linkedin",
+                "link":"https://www.linkedin.com/company/promotion-efficiency",
+                "fav_icon":"fab fa-linkedin-in"
+            }
+        ]
+    },
+    "sections": {
+        "aboutus":{
+            "title":"About <strong>US</strong>",
+            "subtitle":"What People Should Know",
+            "content":[
+                {
+                    "number":"01",
+                    "icon":"assets/imgs/icons/review.svg",
+                    "title":"TRUSTED",
+                    "text":"Creativity is the driving force of our company. Creativity in technology and design has allowed us to produce incredible digital experiences that have stepped out of conventional standards and paid off in very considerable ways - every time."
+                },
+                {
+                    "number":"02",
+                    "icon":"assets/imgs/icons/review.svg",
+                    "title":"INTEGRITY",
+                    "text":"Distribution is a family owned transportation and distribution company located in Houston, Texas."
+                },
+                {
+                    "number":"03",
+                    "icon":"assets/imgs/icons/search.svg",
+                    "title":"EFFICIENCY",
+                    "text":"LSI Distribution is a family owned transportation and distribution company located in Houston, Texas. We provide our customers with supply chain solutions."
+                },
+                {
+                    "number":"04",
+                    "icon":"assets/imgs/icons/watch.svg",
+                    "title":"CREATIVITY",
+                    "text":"Creativity is the driving force of our company. Creativity in technology and design has allowed us to produce incredible"
+                }
+            ]
+        },
+        "video":{
+            "title":"It could be <br /><strong>YOURS<strong>",
+            "subtitle":"PROMO VIDEO",
+            "content":{
+                "url": "assets/videos/Photography.mp4",
+                "poster": "assets/imgs/youtube/youtube-video1600.png"
+            }
+        },
+        "services":{
+            "title":"SERVICES",
+            "subtitle":"THAT YOU'LL ENJOY",
+            "content":[
+                {
+                    "title":"Photography",
+                    "background":"/assets/imgs/services/pexels-marek-339379-v.jpg",
+                    "breif":"Discover beauty through our lenses"
+                },
+                {
+                    "title":"Content Creation",
+                    "background":"assets/imgs/services/pexels-cottonbro-5095887.jpg",
+                    "breif":"Scripts and write-ups to describe your goal"
+                },
+                {
+                    "title":"IT",
+                    "background":"assets/imgs/services/pexels-ovan-57690.jpg",
+                    "breif":"A bundle of creative IT consultation services"
+                },
+                {
+                    "title":"Branding",
+                    "background":"assets/imgs/services/pexels-ovan-57690.jpg",
+                    "breif":"Let your brand, speak your self"
+                },
+                {
+                    "title":"Content Creation 2",
+                    "background":"assets/imgs/services/pexels-cottonbro-5095887.jpg",
+                    "breif":"Scripts and write-ups to describe your goal"
+                },
+                {
+                    "title":"IT 2",
+                    "background":"assets/imgs/services/pexels-ovan-57690.jpg",
+                    "breif":"A bundle of creative IT consultation services, what happens if we write more and more text over here, what if we put more and more to the limit that our text becomes 8 lines?"
+                }
+            ]
+        },
+        "insight":{
+            "title":"in<strong>sight</strong>",
+            "subtitle":"FACTS ABOUT US",
+            "content":[
+                {
+                    "class": "clients",
+                    "title":"TOTAL CLIENTS",
+                    "number":57,
+                    "icon":"assets/imgs/insight/clients.svg"
+                },
+                {
+                    "class": "employees",
+                    "title":"EMPLOYEES",
+                    "number":15,
+                    "icon":"assets/imgs/insight/employee.svg"
+                },
+                {
+                    "class": "campaigns",
+                    "title":"CAMPAIGNS",
+                    "number":100,
+                    "icon":"assets/imgs/insight/campaigns.svg"
+                },
+                {
+                    "class": "hours",
+                    "title":"HOURS OF WORK",
+                    "number":1545,
+                    "icon":"assets/imgs/insight/hour.svg"
+                }
+            ]
+        },
+        "work":{
+            "title":"Our <strong>WORK</strong>",
+            "subtitle":"PORTFOLIO",
+            "content":[
+                {
+                    "project_name":"Project Name",
+                    "client_name":"Client Name",
+                    "breif":"",
+                    "picture":"assets/imgs/work/1.png",
+                    "link":""
+
+                },
+                {
+                    "project_name":"Project Name",
+                    "client_name":"Client Name",
+                    "breif":"",
+                    "picture":"assets/imgs/work/2.png",
+                    "link":""
+
+                },
+                {
+                    "project_name":"Project Name",
+                    "client_name":"Client Name",
+                    "breif":"",
+                    "picture":"assets/imgs/work/3.png",
+                    "link":""
+
+                },
+                {
+                    "project_name":"Project Name",
+                    "client_name":"Client Name",
+                    "breif":"",
+                    "picture":"assets/imgs/work/1.png",
+                    "link":""
+
+                },
+                {
+                    "project_name":"Project Name",
+                    "client_name":"Client Name",
+                    "breif":"",
+                    "picture":"assets/imgs/work/2.png",
+                    "link":""
+
+                },
+                {
+                    "project_name":"Project Name",
+                    "client_name":"Client Name",
+                    "breif":"",
+                    "picture":"assets/imgs/work/3.png",
+                    "link":""
+
+                },
+                {
+                    "project_name":"Project Name",
+                    "client_name":"Client Name",
+                    "breif":"",
+                    "picture":"assets/imgs/work/1.png",
+                    "link":""
+
+                },
+                {
+                    "project_name":"Project Name",
+                    "client_name":"Client Name",
+                    "breif":"",
+                    "picture":"assets/imgs/work/2.png",
+                    "link":""
+
+                }
+            ]
+        },
+        "clients":{
+            "title":"Clients",
+            "subtitle":"WE ARE PROUD TO SERVE",
+            "content":[
+                {
+                    "client_name":"65 Degrees",
+                    "logo":"assets/imgs/clientlogos/65.svg"
+                },
+                {
+                    "client_name":"AQUAFINA",
+                    "logo":"assets/imgs/clientlogos/aquafina.svg"
+                },
+                {
+                    "client_name":"Carlton alMoaibed Hotel",
+                    "logo":"assets/imgs/clientlogos/carlton.svg"
+                },
+                {
+                    "client_name":"Civil Defense Directorate",
+                    "logo":"assets/imgs/clientlogos/civil.svg"
+                },
+                {
+                    "client_name":"Danderah",
+                    "logo":"assets/imgs/clientlogos/danderah.svg"
+                },
+                {
+                    "client_name":"KFUPM",
+                    "logo":"assets/imgs/clientlogos/kfupm.svg"
+                },
+                {
+                    "client_name":"NUGTAH",
+                    "logo":"assets/imgs/clientlogos/nugtah.svg"
+                },
+                {
+                    "client_name":"PEPSI",
+                    "logo":"assets/imgs/clientlogos/pepsi.svg"
+                },
+                {
+                    "client_name":"Bake n Take",
+                    "logo":"assets/imgs/clientlogos/bakentake.svg"
+                },
+                {
+                    "client_name":"Last Summer",
+                    "logo":"assets/imgs/clientlogos/lastsummer.svg"
+                },
+                {
+                    "client_name":"Munch Bakery",
+                    "logo":"assets/imgs/clientlogos/munch.svg"
+                },
+                {
+                    "client_name":"Dice",
+                    "logo":"assets/imgs/clientlogos/dice.svg"
+                },
+                {
+                    "client_name":"Esad",
+                    "logo":"assets/imgs/clientlogos/esad.svg"
+                },
+                {
+                    "client_name":"IntelCodes",
+                    "logo":"assets/imgs/clientlogos/intelcodes.svg"
+                },
+                {
+                    "client_name":"Lipton",
+                    "logo":"assets/imgs/clientlogos/lipton.svg"
+                }
+            ]
+        },
+        "getstarted":{
+            "title":"Ready to get <strong>started?</strong>",
+            "subtitle":"WE ARE READY",
+            "content":{
+                "profile_link":"assets/files/Promotion Efficiency Profile.pdf"
+            }
+        },
+        "blog":{
+            "title":"",
+            "subtitle":"",
+            "content":""
+        },
+        "news":{
+            "title":"",
+            "subtitle":"",
+            "content":""
+        },
+        "address":{
+            "title":"We are very close <strong>to you</strong>",
+            "subtitle":"OUR ADDRESS",
+            "content":{
+                "city":"KHOBAR",
+                "address":"Office 333, Floor 3, Kornich Park, Prince Mutib Road, North Khobar, 31311",
+                "location": {
+                    "lat":26.305914,
+                    "lng":50.223589
+                },
+                "phone":{
+                    "number":"+966-555-555-555",
+                    "link":"+966555555555"
+                }
+            }
+        }
+    }
+}

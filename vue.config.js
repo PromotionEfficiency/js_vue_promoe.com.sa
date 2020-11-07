@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: 'http://localhost:8080/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? 'https://dev.promoe.com.sa/'
+    : 'http://localhost:8080/'
 }

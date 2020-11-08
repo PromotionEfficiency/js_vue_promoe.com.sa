@@ -8,7 +8,7 @@ import './assets/css/main.scss';
 import VueCarousel from 'vue-carousel';
 import router from './router';
 import * as VueGoogleMaps from "vue2-google-maps";
-import jsonData from "./assets/db.json";
+//import jsonData from "./assets/db.json";
 import axios from "axios";
 
 Vue.use(VueGoogleMaps, {
@@ -18,37 +18,23 @@ Vue.use(VueGoogleMaps, {
   }
 });
 
-
 Vue.component('vue-headful', vueHeadful);
 Vue.use(VueCarousel);
+Vue.config.productionTip = false;
+Vue.prototype.jsonData = null;
 
-const publicPath =  process.env.BASE_URL;
+async function createVue(){
+  
+  const publicPath =  process.env.BASE_URL;
+  const { data } = await axios.get(publicPath + 'assets/db.json');
+  
+  Vue.prototype.jsonData = data;
+  
+  new Vue({
+    router,
+    render: (h) => h(App),
+  }).$mount('#app');
 
-async function makeGetRequest() {
-  let res = await axios.get(publicPath + 'assets/db.json');
-  let data = res.data;
-  return data;
 }
 
-Vue.prototype.jsonData = jsonData;
-
-Vue.config.productionTip = false;
-
-new Vue({
-  router,
-  render: (h) => h(App),
-  created(){
-    console.log(this.jsonData)
-  },
-  beforeMount(){
-    this.fetchData();
-    console.log(this.jsonData);
-  },
-  methods: {
-    async fetchData(){
-      const { data } = await axios.get(publicPath + 'assets/db.json');
-      this.jsonData = data;
-    }
-  }
-  
-}).$mount('#app');
+createVue();

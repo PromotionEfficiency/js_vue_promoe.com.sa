@@ -1,11 +1,11 @@
 <template>
     <!-- Our Address Section -->
-  <section id="ouraddress" class="bg-white infected">
+  <section id="ouraddress" class="bg-white overflow-hidden">
 
     <b-row no-gutters>
-      <b-col cols="12" md="3" offset-md="2" class="py-5 text-center text-md-right px-5">
-        <header class="py-2 pt-2 py-md-3 pt-md-5">
-          <b-img :src="publicPath + 'assets/imgs/logo/greendivider.png'" height="90" alt=""></b-img>
+      <b-col cols="12" lg="5"  xl="3" offset-xl="2" class="py-5 text-center text-lg-right px-5">
+        <header class="py-2 pt-2 py-lg-3 pt-lg-5">
+          <b-img :src="publicPath + 'assets/imgs/logo/greendivider.png'" height="90" alt="" class="d-none d-lg-inline"></b-img>
 
           <h2 class="mb-5 pt-3">
             <small class="text-muted"><strong>{{ this.jsonData.sections.address.subtitle }}</strong></small><br />
@@ -21,7 +21,7 @@
         
       </b-col>
 
-      <b-col cols="12" md="7" class="px-0">
+      <b-col cols="12" lg="7" class="px-0">
         <GoogleMaps />
       </b-col>
     </b-row>

@@ -19,17 +19,24 @@
 }
 
 
-.btn.btn-primary {
+.btn{
+  
+  font-weight: 400 ;  
+  font-size: 1rem;
+  border: none;
+  text-transform: uppercase;
+  
+  &+.btn{
+    margin-left: 1rem;
+  }
+ 
+  &.btn-primary {
+    margin-top: 2rem;
     background-color: #B8D432;
     color: white;
-    font-weight: bold;
-    margin-top: 35px;
-    font-size: 1rem;
-    border: none;
-    text-transform: uppercase;
+    
+    &.inverted {
+      background-color: #464838;
+    }    
   }
-  
-  .btn.btn-primary.inverted {
-    background-color: #464838;
-  }
-  
+}

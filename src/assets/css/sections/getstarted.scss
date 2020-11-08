@@ -1,8 +1,9 @@
 section#getstarted {
+  min-height: 90vh;
     background-position: center bottom;
-    background-size: 100%;
+    background-size: auto 70%;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    
 
     .btn.btn-success {
       background-color: #B8D432;

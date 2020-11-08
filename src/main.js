@@ -9,6 +9,7 @@ import VueCarousel from 'vue-carousel';
 import router from './router';
 import * as VueGoogleMaps from "vue2-google-maps";
 import jsonData from "./assets/db.json";
+import axios from "axios";
 
 Vue.use(VueGoogleMaps, {
   load: {
@@ -21,12 +22,33 @@ Vue.use(VueGoogleMaps, {
 Vue.component('vue-headful', vueHeadful);
 Vue.use(VueCarousel);
 
+const publicPath =  process.env.BASE_URL;
+
+async function makeGetRequest() {
+  let res = await axios.get(publicPath + 'assets/db.json');
+  let data = res.data;
+  return data;
+}
+
 Vue.prototype.jsonData = jsonData;
 
 Vue.config.productionTip = false;
 
 new Vue({
- 
   router,
   render: (h) => h(App),
+  created(){
+    console.log(this.jsonData)
+  },
+  beforeMount(){
+    this.fetchData();
+    console.log(this.jsonData);
+  },
+  methods: {
+    async fetchData(){
+      const { data } = await axios.get(publicPath + 'assets/db.json');
+      this.jsonData = data;
+    }
+  }
+  
 }).$mount('#app');

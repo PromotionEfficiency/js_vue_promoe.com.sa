@@ -1,16 +1,28 @@
 <template>
-  <div class="hello">
-    <h1>Hi</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
+  <div class="SecondaryTemplate">
+    <vue-headful
+      title="Promotion Efficiency"
+      description="Your Hike to PEAK"
+      keywords="business, promo, promotion, efficiency, center, khobar"
+      lang="en"
+      url="https://www.promoe.com.sa/"
+      twitter:url="https://twitter.com/promoefficiency/"
+      image="https://www.promoe.com.sa/public/assets/imgs/favicon/OGImage.png"
+    />
+    <Hero />
+    <Footer />
   </div>
 </template>
 
 <script>
+import Hero from '@/components/sections/Hero.vue';
+import Footer from '@/components/_CleanFooter.vue';
+
 export default {
+  name: 'Home',
+  components: {
+    Hero,
+    Footer
+  },
 };
 </script>

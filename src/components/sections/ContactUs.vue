@@ -1,11 +1,11 @@
 <template>
   <!-- Contact Us Section -->
-  <section id="contact" class="py-2 py-md-5 text-white text-center infected">
+  <section id="contact" class="py-2 py-md-5 text-white text-center overflow-hidden">
     
     <b-container class="mt-5">
       <header>
         <h2 class="mb-5 pt-3">
-          Are You Ready to Start your<strong> Project?</strong><br />
+          Ready For Your<strong> FUTURE?</strong><br />
           <small class="">Contact <strong>Us</strong></small>
         </h2>
       </header>

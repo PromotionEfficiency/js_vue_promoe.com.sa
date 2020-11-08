@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 <template>
   <!-- HERO Section -->
-  <section id="hero" class="p-2 py-md-3 bg-white overflow-hidden infected">
+  <section id="hero" class="p-2 py-lg-3 bg-white overflow-hidden">
     <Navbar />
     <div class="layer layer_1" :style="{ backgroundImage: 'url(' + publicPath + '/assets/imgs/hero/layer_1.png)' }"></div>
     <div class="layer layer_2" :style="{ backgroundImage: 'url(' + publicPath + '/assets/imgs/hero/layer_2.png)' }"></div>
@@ -21,16 +21,12 @@ export default {
     Navbar,
   },
   data() {
-    console.log(this.myData)
     return {
       myData : this.myData,
       publicPath: process.env.BASE_URL,
     }
   },
   mounted() {
-    console.log("hi");
-    console.log(this);
-    console.log(process.env.BASE_URL);
   }
 };
 // Set Background Images for team members

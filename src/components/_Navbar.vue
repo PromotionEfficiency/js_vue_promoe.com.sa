@@ -1,18 +1,20 @@
 <template>
   <header class="container">
     <b-navbar type="dark" class="shadow text-white p-2 rounded-lg">
-        <b-navbar-brand href="#">
+        <b-navbar-brand href="/">
             <b-img :src="publicPath + '/assets/imgs/logo/pe_logo_primary_dark_bg.svg'" fluid alt="Promo Logo" height="55" width="55"></b-img>
         </b-navbar-brand>
         <b-navbar-nav class="ml-auto">
             <b-button variant="transparent" right v-b-toggle.sidebar-variant><span class="navbar-toggler-icon"></span></b-button>
             <b-sidebar id="sidebar-variant" title="" backdrop width="100%" bg-variant="dark" text-variant="light" shadow >
               <div class="overlay-content">
-                <b-link href="#whyus">Why Us</b-link>
-                <b-link href="#services">Services</b-link>
-                <b-link href="#work">Portfolio</b-link>
-                <b-link href="#ourclients">Clients</b-link>
-                <b-link href="#contact">Contact</b-link>
+                <router-link to="/">Home</router-link>
+                <b-link :href="publicPath + '#whyus'">- Why Us</b-link>
+                <b-link :href="publicPath + '#services'">- Services</b-link>
+                <b-link :href="publicPath + '#work'">- Portfolio</b-link>
+                <b-link :href="publicPath + '#contact'">- Contact Us</b-link>
+                <hr />
+                <router-link to="/jobs">Jobs Application</router-link>
               </div>
             </b-sidebar>
         </b-navbar-nav>

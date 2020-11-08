@@ -1,5 +1,5 @@
 section#hero {
-  height: 120vh;
+  height: 90vh;
   position: relative;
 
   header{
@@ -11,31 +11,38 @@ section#hero {
     nav {
       background-color: #464838;
       transition: all 500ms;
-
-      .overlay-content {
-        position: relative;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        width: 70%;
-        margin: 0 auto;
-        text-align: center;
       
-        a {
-          padding: 8px;
-          text-decoration: none;
-          font-size: 36px;
-          color: #45b5aa;
-          display: block;
-          transition: 0.3s;
-          font-weight: 500;
-        }
+      .b-sidebar-header{
+        height: unset;
+      }
+      .b-sidebar-body{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
 
-        a:hover,
-        a:focus {
-          color: #7ee1d6;
+
+        .overlay-content {
+          flex-direction: column;
+          text-align: center;
+        
+          a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 2rem;
+            color: #45b5aa;
+            display: block;
+            transition: 0.3s;
+            font-weight: 700;
+          }
+  
+          a:hover,
+          a:focus {
+            color: #7ee1d6;
+          }
         }
       }
+      
     }
 
     &.sticky {
